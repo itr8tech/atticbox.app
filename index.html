@@ -592,7 +592,8 @@
         <h3><svg class="icon" aria-hidden="true"><use href="#i-grid"/></svg>Library and projects</h3>
         <ul>
           <li>Add folders of photos and videos from any drive; the originals stay where they are</li>
-          <li>Videos: MP4, MOV, M4V, MKV, AVI, MTS and M2TS. Photos: JPEG, HEIC, PNG, TIFF and WebP</li>
+          <li>Videos: MP4, MOV, M4V, AVCHD (MTS and M2TS), DVD folders and MPEG, MiniDV, AVI, MKV and 3GP. Photos: JPEG, HEIC, PNG, TIFF, WebP and camera RAW</li>
+          <li>An MP4 copy of each video in an older format, so it plays everywhere</li>
           <li>Separate projects for separate families, each with its own people and places</li>
           <li>Keep a project on an external drive and open it on any of your Macs</li>
           <li>Grid and table views, with editing right in the table</li>
@@ -738,7 +739,11 @@
       <h2 id="faq-title">Questions</h2>
       <details>
         <summary>Do I need to digitize my tapes first?</summary>
-        <p>Yes. AtticBox organizes the video files and scans you already have: the folder a digitizing service sends back, files from a library’s memory lab, or recordings from a USB video converter. It reads MP4, MOV, M4V, MKV, AVI and MTS/M2TS videos, and JPEG, HEIC, PNG, TIFF and WebP photos.</p>
+        <p>Yes. AtticBox organizes the video files and scans you already have: the folder a digitizing service sends back, files from a library’s memory lab, or recordings from a USB video converter. It reads MP4, MOV and M4V videos, camcorder AVCHD (MTS and M2TS), DVD folders and MPEG files, MiniDV, AVI, MKV and 3GP, and JPEG, HEIC, PNG, TIFF, WebP and camera RAW photos. Videos in older formats get an MP4 copy that plays everywhere, and the originals are left as they are.</p>
+      </details>
+      <details>
+        <summary>Can it open Windows Media (WMV) videos?</summary>
+        <p>Not at launch. Apple’s video frameworks, which AtticBox is built on, can’t play Windows Media or WebM files. AtticBox lists them on their folder and shows how to convert them to MP4 with HandBrake, a free app. Save each MP4 beside its original and AtticBox adds it on the next scan. If enough families ask for WMV, we’ll consider reading it directly.</p>
       </details>
       <details>
         <summary>Is anything uploaded?</summary>
